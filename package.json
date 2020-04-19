@@ -1,5 +1,5 @@
 {
-  "name": "From Sketch to Folders Structure",
+  "name": "from-sketch-to-vue-components",
   "version": "0.1.0",
   "private": false,
   "main": "src/main.js",
@@ -27,13 +27,20 @@
     "env": {
       "node": true
     },
-    "extends": ["plugin:vue/essential", "eslint:recommended"],
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
     "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
     }
   },
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
-  "keywords": ["vue", "vuejs", "starter"],
-  "description": "Vue.js example starter project"
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "keywords": [],
+  "description": ""
 }
