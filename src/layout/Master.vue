@@ -2,7 +2,7 @@
   <section class="bg-gray-200 max-w-sm mx-auto">
     <HeaderPartial/>
     <router-view/>
-    <Footer/>
+    <FooterPartial/>
   </section>
 </template>
 
