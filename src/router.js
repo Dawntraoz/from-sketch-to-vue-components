@@ -37,5 +37,8 @@ export default new Router({
       name: "notFound",
       component: () => import("./pages/NotFound.vue")
     }
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    return { x: 0, y: 0 };
+  }
 });
